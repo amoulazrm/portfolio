@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <script defer src="js.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="#" class="navbar-brand">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <img src="C:\Users\Lenovo\Desktop\amal\amal.jpg" alt="Profile" class="rounded-circle profile-pic-navbar ml-3" width="40" height="40">
+    </div>
+  </nav>
+
+  <section class="hero text-center p-5">
+    <h1 class="display-4">Welcome to My Portfolio</h1>
+    <p class="lead">2024</p>
+    <div class="scroll-down-indicator">
+      <span class="scroll-down-arrow"></span>
+      <p>Scroll down</p>
+    </div>
+  </section>
+
+  <section id="about" class="container py-5">
+    <h2 class="about-title text-center">About Me</h2>
+    <p class="about-info text-center">I am Amal Zramdini, a web developer with a passion for creating beautiful and functional websites.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="progress">
+      <div class="progress-bar" style="width: 80%;">
+        <span>80%</span>
+      </div>
+    </div>
+    <div class="progress-label">HTML</div>
+  
+    <div class="progress">
+      <div class="progress-bar" style="width: 70%;">
+        <span>70%</span>
+      </div>
+    </div>
+    <div class="progress-label">CSS</div>
+  
+    <div class="progress">
+      <div class="progress-bar" style="width: 40%;">
+        <span>40%</span>
+      </div>
+    </div>
+    <div class="progress-label">JavaScript</div>
+    <div class="progress">
+        <div class="progress-bar" style="width: 50%;">
+          <span>50%</span>
+        </div>
+      </div>
+      <div class="progress-label">Bootstrap</div>
+      <div class="progress">
+        <div class="progress-bar" style="width: 90%;">
+          <span>90%</span>
+        </div>
+      </div>
+      <div class="progress-label">Java</div>
+    
+   
+  </section>
+
+  <section id="projects" class="project container py-5">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Portfolio</h3>
+            <p class="card-text">This project is a responsive website built with HTML, CSS, and JavaScript.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Medical Schedule</h3>
+            <p class="card-text">A single-page application developed using React and integrated with an API.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Mobile Application</h3>
+            <p class="card-text">A mobile application featuring a secure user authentication.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contact</h2>
+    <p class="text-center">Get in touch via phone or email, or send a message directly below!</p>
+    
+    <form class="contact-form mx-auto" style="max-width: 600px;">
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Your phone number" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Your email address" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" class="form-control" placeholder="Your message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer bg-light text-center py-3">
+    <p>&copy; 2024 Amal Zramdini</p>
+  </footer>
+
+  <button class="scroll-to-top btn btn-secondary">Top</button>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
